@@ -23,7 +23,7 @@ body {
 
 #main {
     /* header.padding: 20px (x2), header.title: 36px, some mysterious space below #main */
-    height: calc(100% - 40px - 36px - 2%);
+    height: calc(100% - 40px - 36px - 5%);
     display: flex;
 }
 
