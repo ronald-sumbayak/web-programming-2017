@@ -1,11 +1,13 @@
 function showlogin () {
-    $('#loginform').show ();
-    $('#signupform').hide ();
+    $('#signuperr').hide ();
+    $('#signupform').hide (0);
+    $('#loginform').show (1234);
 }
 
 function showsignup () {
-    $('#signupform').show ();
-    $('#loginform').hide ();
+    $('#loginerr').hide ();
+    $('#loginform').hide (0);
+    $('#signupform').show (1234);
 }
 
 $('#signupfom').hide ();
